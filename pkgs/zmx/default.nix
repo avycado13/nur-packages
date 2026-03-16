@@ -57,5 +57,6 @@ stdenv.mkDerivation rec {
     homepage = "https://zmx.sh";
     license = licenses.mit;
     platforms = platforms.unix;
+sourceProvenance = [ binaryNativeCode ]
   };
 }
