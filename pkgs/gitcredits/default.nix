@@ -1,10 +1,12 @@
 {
   lib,
+  pkgs,
   buildGoModule,
   fetchFromGitHub,
 }:
 
 buildGoModule rec {
+  go = pkgs.go;
   pname = "gitcredits";
   version = "0.1.1";
 
