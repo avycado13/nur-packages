@@ -12,10 +12,10 @@ buildGoModule rec {
     owner = "Higangssh";
     repo = "gitcredits";
     rev = "v${version}";
-    hash = "sha256-AG6vxFTvHt0iDUy8QrMaOfsEKuXJEqBHSBDhH2XItGg=";
+    hash = "sha256-WubDra7945LtE2gxlqumlq0ie5jakT6Zv7f8qod+ZUs=";
   };
 
-  vendorHash = "sha256-l6AWvML9+qYi7bJeOZ5l7d2yjJwJ8VRbVK6g60kzmnY=";
+  vendorHash = null;
 
   ldflags = [
     "-s"
